@@ -21,6 +21,5 @@ const ToDoSchema = new Schema({
     timestamps: true
 });
 
-
 //Exporting the Model/Schema
 module.exports=Model('ToDo', ToDoSchema);
